@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main #nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#hero a{
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: ogg;
+    color: chocolate;
+}
+#link{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+#link h1{
+    color: cornflowerblue;
+    font-size: 50px;
+    font-family: poppins;
+}
+#link p{
+    font-size: 20px;
+    opacity: .5;
+}
+#link b{
+    color: red;
+}
+#link a{
+    position: absolute;
+    text-decoration: none;
+    background-color: royalblue;
+    color: salmon;
+    padding: 13px 10px;
+    border-radius: 50px;
+    margin-top: 2%;
+}
+#box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    top: 20%;
+}
+#box img{height: 50%;
+    position: absolute;
+}
+#box:hover #a2{
+    top: 35%;
+}
+#icon{
+    margin-left: 20px;
+    position: absolute;
+    bottom: 2%;
+}
+#icon i{
+    margin-left: 20px;
+}
+#icon:hover i{
+    color: tomato;
+} 
